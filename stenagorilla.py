@@ -2,7 +2,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 
 import vk_api, random, time, os, re
 
-#mytokenvk = os.environ.get('TOKEN_VK')
+mytokenvk = os.environ.get('TOKEN_VK')
 vk_session = vk_api.VkApi(token=mytokenvk)
 longpull = VkLongPoll(vk_session)
 vk = vk_session.get_api()
