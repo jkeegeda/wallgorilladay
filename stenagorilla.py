@@ -13,7 +13,7 @@ while True:
 	textlookfor=r"промо\s\w+"
 	mask=re.findall(textlookfor, str(response))
 	print(mask)
-	if not (mask=='промо вип'):
+	if not (mask[0]=='промо вип'):
 		vk.messages.send(
 	                            # chat_id= event.chat_id,
 	                            peer_id= -171493284,
