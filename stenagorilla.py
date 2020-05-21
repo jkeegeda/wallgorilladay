@@ -7,7 +7,7 @@ vk_session = vk_api.VkApi(token=mytokenvk)
 longpull = VkLongPoll(vk_session)
 vk = vk_session.get_api()
 while True:
-	response = vk.wall.get(count=4,
+	response = vk.wall.get(count=5,
 	owner_id= -171493284)
 	#print(response)
 	textlookfor=r"промо\s\w+"
