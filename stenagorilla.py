@@ -22,4 +22,4 @@ while True:
 	                        )
 	else:
 			pass                        
-	time.sleep(61)		
+	time.sleep(6)		
